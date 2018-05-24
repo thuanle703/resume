@@ -1,4 +1,74 @@
 ---
 layout: default
 ---
-This is the home page of the myproject documentation.
+<body>
+  <ul>
+    <li><a href="#overview">About Me</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills and Qualifications</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+
+  <div id="overview">
+    <h1>Thuan Minh Le</h1>
+    <p>Passionate young marketer wanting to build a career in digital marketing</p>
+    <p>Cal Poly Pomona &apos;17: Business Admistration/Marketing Management</p>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/thuan-le-a9806781" data-format="inline" data-related="false"></script>
+  </div>
+
+<div id="education">
+  <h2><u>Education</u></h2>
+
+  <h3>California State Polytechnic University, Pomona</h3>
+  <p>Pomona, California</p>
+  <p><em>Bachelor of Science: Business Administration/Marketing Management</em>, GPA: 3.78, Jun 2017</p>
+  <p>Honors:</p>
+  <ul>
+    <li>Magna Cum Laude</li>
+    <li>2 times President &apos;s list recipient (Fall 2016, Fall 2017)</li>
+  </ul>
+
+  <h3>East Los Angeles College</h3>
+  <p>Monterey Park, California</p>
+  <p><em>Associate in Arts, General Studies: Social and Behavioral Sciences</em>, GPA: 3.77, Jun 2015</p>
+  <p>Honors:</p>
+  <ul>
+    <li>Cum Laude</li>
+    <li>3 times President &apos;s list recipient (Fall 2013, Fall 2014, Fall 2015)</li>
+  </ul>
+</div>
+
+<div id="experience">
+  <h2><u>Experience</u></h2>
+  <h3>iTH Phone Solution</h3>
+  <p>South El Monte, California</p>
+  <p><em>Sales Associate</em></p>
+    <p>Oct 2013 - Jan 2016</p>
+    <ul>
+      <li>Managed customers' inquiries about products, prices, and availability.</li>
+      <li>Maintained positive business relationships to ensure future sales.</li>
+      <li>Handled customer feedbacks and provide appropriate solutions to achieve customer satisfaction and loyalty.</li>
+    </ul>
+</div>
+
+<div id="skills">
+  <h2><u>Skills and Professional Qualifications</u></h2>
+  <ul>
+    <li>Google AdWords Search Certified: 07/2017</li>
+    <li>Google Analytics Certified: 08/2017</li>
+    <li>Bilingual: English, Vietnamese (full professional proficiency)</li>
+    <li>MS Office Suite: Word (Advanced), Excel (Intermediate), Powerpoint (Advanced)</li>
+    <li>Basic understanding and execution of browser-based front-end languages: HTML, CSS</li>
+</div>
+
+<div id="contact">
+  <h2><u>Contact:</u></h2>
+  <p><a href="mailto: thuanle703@gmail.com">Email me</a></p>
+  <p><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/thuan-le-a9806781" data-format="hover" data-related="false" data-text="Thuan Le"></script></p>
+</div>
+
+</body>
+
