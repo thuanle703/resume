@@ -17,6 +17,21 @@
     margin: 0 auto;
   }
 
+  header ul {
+  	position:fixed;
+  	left:0px;
+  	top:0px;
+  	z-index:1;
+  	width:100%;
+    padding-top: 10px;
+  }
+
+  footer {
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
   /* Typography */
 
   h1 {
@@ -26,7 +41,7 @@
   h2 {
     font-size: 3.2em;
   }
-    
+
   h3  {
     font-size: 2em;
     }
@@ -38,7 +53,7 @@
 
 </head>
 
-<body>
+<header>
   <ul>
     <li><a href="#overview">About Me</a></li>
     <li><a href="#education">Education</a></li>
@@ -46,11 +61,13 @@
     <li><a href="#skills">Skills and Qualifications</a></li>
     <li><a href="#contact">Contact Me</a></li>
   </ul>
+</header>
 
+  <body>
   <div id="overview">
     <h1>Thuan Minh Le</h1>
-    <p>Passionate young marketer wanting to build a career in digital marketing</p>
     <p>Cal Poly Pomona &apos;17: Business Admistration/Marketing Management</p>
+    <p>Passionate young marketer wanting to build a career in digital marketing</p>
     <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/thuan-le-a9806781" data-format="inline" data-related="false"></script>
   </div>
@@ -61,7 +78,7 @@
   <h3>California State Polytechnic University, Pomona</h3>
   <p>Pomona, California</p>
   <p><em>Bachelor of Science: Business Administration/Marketing Management</em>, GPA: 3.78, Jun 2017</p>
-  <p>Honors:</p>
+  <p><u>Honors:</u></p>
   <ul>
     <li>Magna Cum Laude</li>
     <li>2 times President &apos;s list recipient (Fall 2016, Fall 2017)</li>
@@ -70,7 +87,7 @@
   <h3>East Los Angeles College</h3>
   <p>Monterey Park, California</p>
   <p><em>Associate in Arts, General Studies: Social and Behavioral Sciences</em>, GPA: 3.77, Jun 2015</p>
-  <p>Honors:</p>
+  <p><u>Honors:</u></p>
   <ul>
     <li>Cum Laude</li>
     <li>3 times President &apos;s list recipient (Fall 2013, Fall 2014, Fall 2015)</li>
@@ -102,12 +119,15 @@
 
 <div id="contact">
   <h2><u>Contact:</u></h2>
-  <p><a href="mailto: thuanle703@gmail.com">Email me</a></p>
+  <p><a href="mailto: thuanle703@gmail.com" title="My e-mail address">Email me</a></p>
   <p><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/thuan-le-a9806781" data-format="hover" data-related="false" data-text="Thuan Le"></script></p>
 </div>
 
 </body>
-  
-  </html>
 
+<footer>
+  &copy; 2018 Thuan Minh Le
+</footer>
+
+  </html>
