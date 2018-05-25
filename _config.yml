@@ -1,3 +1,5 @@
+baseurl: ""
+url: "https://thuanle703.github.io/resume/"
 theme: jekyll-theme-architect
 title: Welcome to Thuan Le's homepage!
 description: My Online Resume

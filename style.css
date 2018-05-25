@@ -1,0 +1,25 @@
+/* General styling */
+
+html {
+  font-family: 'Helvetica', Arial, 'sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 80em;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3.2em;
+}
+
+p, li {
+  font-size: 1.7em;
+}
