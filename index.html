@@ -6,47 +6,61 @@
   <meta name="author" content="Thuan Minh Le">
   <title>Thuan Minh Le's online resume</title>
   <style>
-
   /* General Styling */
   html {
     font-family: 'Helvetica', Arial, 'sans-serif';
     font-size: 10px;
   }
-
   body {
     width: 80em;
     margin: 0 auto;
   }
 
-  header ul {
-  	position: absolute;
-  	left:0px;
-  	top:0px;
-  	z-index:1;
-  	width:100%;
-    padding-top: 10px;
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: auto
+    padding-top: 20px;
   }
+
+  .sidenav a {
+    padding: 12px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: red;
+  }
+
+  .main {
+    margin-left: 160px; 
+    font-size: 10px;
+    padding: 0px 10px;
+  }
+
 
   footer {
     font-style: italic;
     text-transform: capitalize;
     text-align: center;
   }
-
   /* Typography */
-
   h1 {
     font-size: 4em;
   }
-
   h2 {
     font-size: 3.2em;
   }
-
   h3  {
     font-size: 2em;
     }
-
   p, li {
     font-size: 1.7em;
     }
@@ -54,17 +68,16 @@
 
 </head>
 
-<header>
-  <ul>
-    <li><a href="#overview">About Me</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#skills">Skills and Qualifications</a></li>
-    <li><a href="#contact">Contact Me</a></li>
-  </ul>
-</header>
-
   <body>
+  <div class="sidenav">
+    <a href="#overview">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills and Qualifications</a>
+    <a href="#contact">Contact Me</a>
+  </div>
+
+  <div class="main">
   <div id="overview">
     <h1>Thuan Minh Le</h1>
     <p>Cal Poly Pomona &apos;17: Business Admistration/Marketing Management</p>
@@ -125,6 +138,7 @@
   <p><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/thuan-le-a9806781" data-format="hover" data-related="false" data-text="Thuan Le"></script></p>
 </div>
+</div>
 
 </body>
 
@@ -133,4 +147,3 @@
 </footer>
 
   </html>
-
